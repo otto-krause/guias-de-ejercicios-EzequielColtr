@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 
 namespace E2
 {
@@ -6,7 +8,15 @@ namespace E2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Clinica Mitre = new Clinica();
+
+            string especialidad;
+        
+            Console.WriteLine("Elija una especialidad(Nutricionista, Dermatologo, Traumatologo)");
+
+            especialidad = Console.ReadLine();
+
+            Console.WriteLine(Mitre.PidiendoTurno(especialidad));
         }
     }
 }
