@@ -7,7 +7,9 @@ namespace E5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SuperMercado Dia = new SuperMercado();
+
+            
         }
     }
 }

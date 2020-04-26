@@ -5,16 +5,16 @@ namespace E5
 {
     public class SuperMercado
     {
-        List<Carrito> Dia = new List<Carrito>();
+        List<Carrito> supermercado = new List<Carrito>();
 
         
         public int Ganancias()
         {
-            foreach (var i in Dia)
+            foreach (var i in supermercado)
             {
-                foreach (var j in carrito)
+                foreach (var j in i)
                 {
-                
+                    
                 }
             }
         }
