@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Collections.Generic;
+using System;
 
 namespace E5
 {
@@ -6,7 +7,9 @@ namespace E5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SuperMercado Dia = new SuperMercado();
+
+            
         }
     }
 }
