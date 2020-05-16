@@ -6,7 +6,21 @@ namespace E3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            Pc PCdeEscritorio = new Pc();
+
+            PCdeEscritorio.IngresarComponentes();
+
+            Console.WriteLine("El precio total es " + PCdeEscritorio.PrecioTotal());
+
+            if(PCdeEscritorio.SePuedeArmar())
+            {
+                Console.WriteLine("Se puede armar");
+            }
+            else
+            {
+                Console.WriteLine("No se puede armar");
+            }
         }
     }
 }
