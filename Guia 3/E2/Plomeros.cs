@@ -1,6 +1,6 @@
 namespace E2
 {
-    public class Plomeros : contrastistas
+    public class Plomeros : Contrastistas
     {
         int horasTrabajadas = 0;
 

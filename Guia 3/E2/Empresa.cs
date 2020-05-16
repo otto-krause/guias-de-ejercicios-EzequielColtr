@@ -5,7 +5,7 @@ namespace E2
 {
     public class Empresa
     {
-        List<contrastistas> contrastistas = new List<contrastistas>();
+        List<Contrastistas> contrastistas = new List<Contrastistas>();
 
         public Empresa()
         {
@@ -26,6 +26,23 @@ namespace E2
             contrastistas.Add(new Albañiles(45,false));
             contrastistas.Add(new Albañiles(55,false));
             contrastistas.Add(new Albañiles(65,true));
+        }
+
+        public bool SePuedeHacerElTrabajo(int horas, int presupuesto)
+        {
+            int presupuestoNecesario = 0;
+            
+            foreach (var i in contrastistas)
+            {
+                i.trabajar(horas);
+
+                presupuestoNecesario += i.cobrar();
+            }
+
+            return presupuestoNecesario < presupuesto;
+            
+                
+            
         }
     }
 }

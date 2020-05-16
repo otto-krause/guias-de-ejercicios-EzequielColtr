@@ -1,6 +1,6 @@
 namespace E2
 {
-    public interface contrastistas
+    public interface Contrastistas
     {
         public void trabajar(int horas);
 

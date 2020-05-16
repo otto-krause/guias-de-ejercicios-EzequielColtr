@@ -1,6 +1,6 @@
 namespace E2
 {
-    public class Albañiles : contrastistas
+    public class Albañiles : Contrastistas
     {
 
         int edad = 0;

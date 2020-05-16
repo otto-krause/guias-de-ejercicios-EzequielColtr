@@ -1,6 +1,6 @@
 namespace E2
 {
-    public class Pintores : contrastistas
+    public class Pintores : Contrastistas
     {
         int horasTrabajadas = 0;
         int litrosDePintura = 0;
