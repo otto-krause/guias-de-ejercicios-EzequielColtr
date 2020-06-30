@@ -5,13 +5,15 @@ namespace E5
 {
     public class Producto
     {
-        string nombre;
-        int precio;
+        protected string nombre;
+        protected int precio;
 
         public Producto(string nombre, int precio)
         {
             this.nombre = nombre;
             this.precio = precio;
         }
+
+        public int Precio { get => precio;}
     }
 }

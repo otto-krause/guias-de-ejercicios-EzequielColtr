@@ -10,13 +10,19 @@ namespace E5
         
         public int Ganancias()
         {
+            int ganaciasDia = 0;
+
             foreach (var i in supermercado)
             {
-                foreach (var j in i)
+                foreach (var j in i.productosDelCarrito)
                 {
-                    
+                    ganaciasDia += j.Precio;
                 }
+                
+                
             }
+
+            return ganaciasDia;
         }
     
     }
