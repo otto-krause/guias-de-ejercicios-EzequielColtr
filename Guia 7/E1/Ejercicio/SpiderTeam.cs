@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using System;
 
 namespace Ejercicio
 {
@@ -17,6 +18,23 @@ namespace Ejercicio
         public void PelearConKingpin()
         {
             spidermans.ForEach(SpiderMan => SpiderMan.Atacar(kinpin));
+        }
+
+        public void VolverAcasa()
+        {
+
+            if(kinpin.fueVencido())
+                spidermans.OrderByDescending(SpiderMan => SpiderMan.Poder)
+                .ToList()
+                .RemoveAt(3);
+            else
+                Console.WriteLine("error");
+            
+        }
+
+        public int FuerzaSpiderTeam()
+        {
+            return spidermans.Sum(SpiderMan => SpiderMan.Fuerza);
         }
 
     }
