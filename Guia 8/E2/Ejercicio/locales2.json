@@ -1,0 +1,109 @@
+[
+        {
+            "coordenadas":{
+                "latitud": -34.6280805,
+                "longitud": -58.368849
+            },
+            "nombre": "Sucursal Parque Lezama",
+            "direccion": "Av. Martín García 270",
+            "empleados":[
+                {
+                    "puesto": "cajero",
+                    "asignadoA": "juan lopez"
+                },
+                {
+                    "puesto": "supervisora",
+                    "asignadoA": "maria lopez"
+                }
+            ]
+        },
+        {
+            "coordenadas":{
+                "latitud": -34.5973916,
+                "longitud": -58.3942779
+            },
+            "nombre": "Sucursal Santa Fe y Callao",
+            "direccion": "Av. Santa Fe 1780",
+            "empleados":[
+                {
+                    "puesto": "cajera",
+                    "asignadoA": "juana perez"
+                },
+                {
+                    "puesto": "supervisor",
+                    "asignadoA": "mario martinez"
+                },
+                {
+                    "puesto": "limpieza",
+                    "asignadoA": ""
+                }
+            ]
+        },
+        {
+            "coordenadas":{
+                "latitud": -32.5973916,
+                "longitud": 58.3942779
+            },
+            "nombre": "Sucursal San Juan y Entre Rios",
+            "direccion": "Av. San Juan 2112",
+            "empleados":[
+                {
+                    "puesto": "cajera",
+                    "asignadoA": ""
+                },
+                {
+                    "puesto": "supervisor",
+                    "asignadoA": "jose maria castro"
+                },
+                {
+                    "puesto": "limpieza",
+                    "asignadoA": ""
+                }
+            ]
+        },
+        {
+            "coordenadas":{
+                "latitud":  12.5973916,
+                "longitud": -18.3942779
+            },
+            "nombre": "Sucursal Corrientes y Entre Rios",
+            "direccion": "Av. Corrientes 1932",
+            "empleados":[
+                {
+                    "puesto": "cajera",
+                    "asignadoA": "pedro sanchez"
+                },
+                {
+                    "puesto": "supervisor",
+                    "asignadoA": "julio gonzales"
+                },
+                {
+                    "puesto": "limpieza",
+                    "asignadoA": "maria gutierrez"
+                }
+            ]
+        },
+        {
+            "coordenadas":{
+                "latitud":  22.5973916,
+                "longitud": -22.3942779
+            },
+            "nombre": "Sucursal Santa Fe y Callao",
+            "direccion": "Av. Santa Fe 2312",
+            "empleados":[
+                {
+                    "puesto": "cajera",
+                    "asignadoA": ""
+                },
+                {
+                    "puesto": "supervisor",
+                    "asignadoA": ""
+                },
+                {
+                    "puesto": "limpieza",
+                    "asignadoA": ""
+                }
+            ]
+        }
+]
+
